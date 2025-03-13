@@ -1,0 +1,131 @@
+---------------------------------------------------------------
+[ 2024-11-20T11:40:57+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ldcms/document/index/mid/7?ref=addtabs
+[运行时间：0.289517s] [吞吐率：3.45req/s] [内存消耗：285.66kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.012146s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012168s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001503s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ldcms.document',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; PHPSESSID=40vsve0haqvtacvur4afbs4v0t; backend_language=zh-cn; frontend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'ref' => 'addtabs',
+  'mid' => '7',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001183s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001007s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-11-20T13:55:29+08:00 ] 10.211.55.2 GET dev.sustens.com/chanpinxilie1_en.html
+[运行时间：0.722358s] [吞吐率：1.38req/s] [内存消耗：844.73kb] [文件加载：189]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.021406s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.021434s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001888s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000035s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'lists',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; PHPSESSID=40vsve0haqvtacvur4afbs4v0t; backend_language=zh-cn; frontend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/gongsijianjie_en.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'category' => 'chanpinxilie1_en',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003391s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000047s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/en.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/ldcms2024en/list_product.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'category',
+  4 => 'parentsid',
+  5 => 'childids',
+  6 => 'ld',
+  7 => 'topid',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]Undefined variable $item[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:52]
+[ error ] [2]Trying to access array offset on value of type null[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:52]
+[ error ] [2]Undefined array key "url"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:269]
+[ error ] [2]Undefined array key "name"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:269]
+[ error ] [2]Undefined array key "id"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:273]
+[ error ] [2]Undefined array key "url"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:269]
+[ error ] [2]Undefined array key "name"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:269]
+[ error ] [2]Undefined array key "id"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:273]
+[ error ] [2]Undefined array key "url"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:470]
+[ error ] [2]Undefined array key "name"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:470]
+[ error ] [2]Undefined array key "url"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:472]
+[ error ] [2]Undefined array key "name"[/var/webstars/sustens/runtime/temp/76cb70a2f5189dcb222ef43a174ebc0d.php:472]

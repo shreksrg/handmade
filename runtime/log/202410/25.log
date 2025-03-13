@@ -1,0 +1,2640 @@
+---------------------------------------------------------------
+[ 2024-10-25T10:46:14+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/logout
+[运行时间：1.001394s] [吞吐率：1.00req/s] [内存消耗：280.20kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.238071s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.238097s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.010092s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000052s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; fastadmin_userinfo=%7B%22id%22%3A%2215950%22%2C%22username%22%3A%22shrek%22%2C%22nickname%22%3A%22shrek%22%2C%22token%22%3A%22372539ca-49f1-462e-a150-7c9b73386f16%22%7D; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729833683%7C997a2576261aa197bf1785f79d025488',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003016s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001983s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:17+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login?url=%2FMTyvDCHVOo.php%2Findex%2Flogout
+[运行时间：0.067040s] [吞吐率：14.92req/s] [内存消耗：469.44kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003493s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003519s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000151s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; fastadmin_userinfo=%7B%22id%22%3A%2215950%22%2C%22username%22%3A%22shrek%22%2C%22nickname%22%3A%22shrek%22%2C%22token%22%3A%22372539ca-49f1-462e-a150-7c9b73386f16%22%7D; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729833683%7C997a2576261aa197bf1785f79d025488',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/MTyvDCHVOo.php/index/logout',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000119s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000196s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000050s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:17+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/logout
+[运行时间：0.039939s] [吞吐率：25.04req/s] [内存消耗：401.66kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.013306s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.013342s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000086s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000099s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; fastadmin_userinfo=%7B%22id%22%3A%2215950%22%2C%22username%22%3A%22shrek%22%2C%22nickname%22%3A%22shrek%22%2C%22token%22%3A%22372539ca-49f1-462e-a150-7c9b73386f16%22%7D; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910777%7C468b0211b5e718c2c2f6aa17f9b33c9b',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000078s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000047s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000031s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:17+08:00 ] 10.211.55.2 POST dev.sustens.com/MTyvDCHVOo.php/index/logout
+[运行时间：0.086081s] [吞吐率：11.62req/s] [内存消耗：460.49kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003930s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003960s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000076s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000283s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; fastadmin_userinfo=%7B%22id%22%3A%2215950%22%2C%22username%22%3A%22shrek%22%2C%22nickname%22%3A%22shrek%22%2C%22token%22%3A%22372539ca-49f1-462e-a150-7c9b73386f16%22%7D; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910777%7C468b0211b5e718c2c2f6aa17f9b33c9b',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://dev.sustens.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '42',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => 'bd24250528cad3db247a0b2e8db4dfc7',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000101s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000055s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.018641s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:19+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.136646s] [吞吐率：7.32req/s] [内存消耗：388.68kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.010516s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010548s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000087s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000129s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000040s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000038s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:19+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.075079s] [吞吐率：13.32req/s] [内存消耗：242.80kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003612s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003906s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000122s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000030s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:19+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729824378
+[运行时间：0.043615s] [吞吐率：22.93req/s] [内存消耗：301.92kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000114s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.007285s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007313s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000131s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729824378',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000084s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000046s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000058s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:32+08:00 ] 10.211.55.2 POST dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.085798s] [吞吐率：11.66req/s] [内存消耗：457.66kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.006484s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006505s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000132s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'origin' => 'http://dev.sustens.com',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'content-length' => '117',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '6aa1832767f7116c4b28dcfa2a771643',
+  'username' => 'sustensadmin',
+  'password' => 'sustensadmin@pwd',
+  'captcha' => '5pn2',
+  'keeplogin' => '1',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000071s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000030s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.012614s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:32+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/index
+[运行时间：0.095068s] [吞吐率：10.52req/s] [内存消耗：713.08kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.007163s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007194s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000063s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000064s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000201s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->index[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'menulist',
+  6 => 'navlist',
+  7 => 'fixedmenu',
+  8 => 'referermenu',
+  9 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000527s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:33+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/dashboard?addtabs=1
+[运行时间：0.577901s] [吞吐率：1.73req/s] [内存消耗：683.64kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000018s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005061s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005116s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000064s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'dashboard',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000172s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000056s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ RUN ] app\admin\controller\Dashboard->index[ /var/webstars/sustens/application/admin/controller/Dashboard.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/dashboard/index.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'totaluser',
+  6 => 'totaladdon',
+  7 => 'totaladmin',
+  8 => 'totalcategory',
+  9 => 'todayusersignup',
+  10 => 'todayuserlogin',
+  11 => 'sevendau',
+  12 => 'thirtydau',
+  13 => 'threednu',
+  14 => 'sevendnu',
+  15 => 'dbtablenums',
+  16 => 'dbsize',
+  17 => 'totalworkingaddon',
+  18 => 'attachmentnums',
+  19 => 'attachmentsize',
+  20 => 'picturenums',
+  21 => 'picturesize',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000034s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:33+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729824392
+[运行时间：0.466876s] [吞吐率：2.14req/s] [内存消耗：302.90kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000255s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003163s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003303s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000052s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729824392',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000053s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000058s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000098s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:46:34+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=dashboard&lang=zh-cn&v=1729824393
+[运行时间：0.026557s] [吞吐率：37.65req/s] [内存消耗：300.36kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003514s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003546s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000076s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'dashboard',
+  'lang' => 'zh-cn',
+  'v' => '1729824393',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000093s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000043s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/dashboard.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000045s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:51:48+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ldcms/config?addtabs=1
+[运行时间：0.728206s] [吞吐率：1.37req/s] [内存消耗：621.11kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000035s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.034341s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.034433s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002579s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000040s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ldcms.config',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'addtabs' => '1',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.008791s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000141s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ldcms/config.php
+[ info ] [ RUN ] app\admin\controller\ldcms\Config->index[ /var/webstars/sustens/application/admin/controller/ldcms/Config.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/config.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'addon_config',
+  6 => 'noDel',
+  7 => 'typeList',
+  8 => 'ruleList',
+  9 => 'groupList',
+  10 => 'addon',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001590s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T10:51:49+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=ldcms.config&lang=zh-cn&v=1729824708
+[运行时间：0.061524s] [吞吐率：16.25req/s] [内存消耗：306.68kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005419s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005450s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000128s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'ldcms.config',
+  'lang' => 'zh-cn',
+  'v' => '1729824708',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000074s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000035s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ldcms/config.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000048s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T11:58:39+08:00 ] 10.211.55.2 GET dev.sustens.com/
+[运行时间：1.554167s] [吞吐率：0.64req/s] [内存消耗：891.30kb] [文件加载：192]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000139s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.030063s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.030096s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002232s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000033s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'purpose' => 'prefetch',
+  'sec-purpose' => 'prefetch;prerender',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.007541s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000083s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/zh-cn.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/default/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'ld',
+  4 => 'topid',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+---------------------------------------------------------------
+[ 2024-10-25T11:58:43+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/addons/ldcms/images/cbg.jpg
+[运行时间：0.025689s] [吞吐率：38.93req/s] [内存消耗：241.13kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005144s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005174s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000120s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'addons',
+    2 => 'ldcms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/',
+  'purpose' => 'prefetch',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-purpose' => 'prefetch;prerender',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'cbg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T14:40:44+08:00 ] 10.211.55.2 GET dev.sustens.com/
+[运行时间：0.566361s] [吞吐率：1.77req/s] [内存消耗：891.30kb] [文件加载：192]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.026695s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.026719s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003285s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000029s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'purpose' => 'prefetch',
+  'sec-purpose' => 'prefetch;prerender',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003733s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000042s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/zh-cn.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/default/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'ld',
+  4 => 'topid',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+---------------------------------------------------------------
+[ 2024-10-25T14:40:45+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/addons/ldcms/images/cbg.jpg
+[运行时间：0.021483s] [吞吐率：46.55req/s] [内存消耗：241.13kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000076s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.004601s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004624s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000077s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000020s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'addons',
+    2 => 'ldcms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/',
+  'purpose' => 'prefetch',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'sec-purpose' => 'prefetch;prerender',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'cbg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T14:43:00+08:00 ] 10.211.55.2 GET dev.sustens.com/
+[运行时间：0.745919s] [吞吐率：1.34req/s] [内存消耗：890.89kb] [文件加载：192]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000098s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.123036s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.123070s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.004828s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000040s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003147s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000060s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/zh-cn.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/default/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'ld',
+  4 => 'topid',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+---------------------------------------------------------------
+[ 2024-10-25T14:43:00+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/addons/ldcms/images/cbg.jpg
+[运行时间：0.073984s] [吞吐率：13.52req/s] [内存消耗：240.59kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005889s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005974s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000069s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000018s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'addons',
+    2 => 'ldcms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'cbg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:47+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/logout
+[运行时间：0.332007s] [吞吐率：3.01req/s] [内存消耗：279.35kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.024975s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.025002s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003617s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000027s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001327s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.004498s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:50+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login?url=%2FMTyvDCHVOo.php%2Findex%2Flogout
+[运行时间：0.062761s] [吞吐率：15.93req/s] [内存消耗：467.88kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003333s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003364s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000113s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000074s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729910792%7C6507096f9aea711fb51d2b46da0ad425',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'url' => '/MTyvDCHVOo.php/index/logout',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000518s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000036s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000080s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:51+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/logout
+[运行时间：0.034270s] [吞吐率：29.18req/s] [内存消耗：400.41kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003875s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003908s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000078s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729928090%7Ccaf72da6ecc57346e253708b50562265',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000296s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000036s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000137s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:51+08:00 ] 10.211.55.2 POST dev.sustens.com/MTyvDCHVOo.php/index/logout
+[运行时间：0.053653s] [吞吐率：18.64req/s] [内存消耗：459.93kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000019s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.001590s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001607s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000040s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000011s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'logout',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn; keeplogin=1%7C86400%7C1729928090%7Ccaf72da6ecc57346e253708b50562265',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'origin' => 'http://dev.sustens.com',
+  'cache-control' => 'max-age=0',
+  'content-length' => '42',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+)
+[ info ] [ PARAM ] array (
+  '__token__' => '2613cbf452dd984260ba0801a0dd2284',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000047s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000034s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->logout[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/common/view/tpl/dispatch_jump.tpl [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'code',
+  6 => 'msg',
+  7 => 'data',
+  8 => 'url',
+  9 => 'wait',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.020337s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:54+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.037450s] [吞吐率：26.70req/s] [内存消耗：298.90kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000063s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005209s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005242s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000108s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/MTyvDCHVOo.php/index/logout',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000246s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000053s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000145s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:54+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.160843s] [吞吐率：6.22req/s] [内存消耗：241.91kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.018559s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018784s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000095s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000025s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T15:34:54+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729841694
+[运行时间：0.073926s] [吞吐率：13.53req/s] [内存消耗：301.92kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000017s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.006783s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006810s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000058s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729841694',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000071s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000027s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000028s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T16:12:36+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.236511s] [吞吐率：4.23req/s] [内存消耗：297.32kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000034s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.045959s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.045987s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.004644s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000034s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003363s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000058s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001160s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T16:12:36+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.145801s] [吞吐率：6.86req/s] [内存消耗：241.91kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000031s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.026905s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.027036s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000332s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000044s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T16:12:36+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729843955
+[运行时间：0.028498s] [吞吐率：35.09req/s] [内存消耗：301.92kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000032s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003511s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003556s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000082s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729843955',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000106s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000050s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000050s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T18:42:02+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.748641s] [吞吐率：1.34req/s] [内存消耗：297.32kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000029s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.042221s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.042312s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003610s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000040s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003493s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000046s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001018s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T18:42:02+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.159560s] [吞吐率：6.27req/s] [内存消耗：241.91kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.009243s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009319s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000260s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000024s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T18:42:02+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729852921
+[运行时间：0.074831s] [吞吐率：13.36req/s] [内存消耗：301.92kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000030s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.047515s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.047663s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000579s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000297s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729852921',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000432s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000049s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000053s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:00:39+08:00 ] 10.211.55.2 GET dev.sustens.com/?lg=en
+[运行时间：0.761279s] [吞吐率：1.31req/s] [内存消耗：972.65kb] [文件加载：196]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.028922s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.028954s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003819s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000031s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; frontend_language=zh-cn; backend_language=zh-cn',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev1.sustens.com/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'lg' => 'en',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.002833s ]
+[ info ] [ TOKEN ] INIT Mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000034s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/en.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/en/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'ld',
+  4 => 'topid',
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+---------------------------------------------------------------
+[ 2024-10-25T19:00:39+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/addons/ldcms/images/cbg.jpg
+[运行时间：0.031994s] [吞吐率：31.26req/s] [内存消耗：240.35kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.004588s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004615s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000064s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000019s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'addons',
+    2 => 'ldcms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://dev.sustens.com/?lg=en',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'images' => 'cbg.jpg',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:00:46+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.081771s] [吞吐率：12.23req/s] [内存消耗：298.06kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.010549s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.010582s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000133s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000021s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000188s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000065s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.002230s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:00:46+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.102966s] [吞吐率：9.71req/s] [内存消耗：242.03kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005084s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005136s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000108s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000083s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:00:47+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729854046
+[运行时间：0.037966s] [吞吐率：26.34req/s] [内存消耗：301.92kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.006213s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006245s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000115s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000013s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729854046',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000056s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000038s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000105s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:14+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.371596s] [吞吐率：2.69req/s] [内存消耗：298.06kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000040s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.021556s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.021587s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002517s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000306s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002621s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000049s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001039s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:15+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.038056s] [吞吐率：26.28req/s] [内存消耗：242.03kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003887s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003918s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000079s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000025s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:15+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729854314
+[运行时间：0.027828s] [吞吐率：35.94req/s] [内存消耗：301.92kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.004108s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004131s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000057s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000014s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729854314',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000108s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000119s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000193s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/bootstrap.css.map
+[运行时间：0.022998s] [吞吐率：43.48req/s] [内存消耗：239.59kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.004502s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004530s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000074s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000023s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/backend.css.map
+[运行时间：0.038511s] [吞吐率：25.97req/s] [内存消耗：239.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003293s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003320s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000061s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000017s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/fastadmin.css.map
+[运行时间：0.014171s] [吞吐率：70.57req/s] [内存消耗：239.59kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000027s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003838s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003866s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000073s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000022s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:05:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/skins/skin-black-blue.css.map
+[运行时间：0.022364s] [吞吐率：44.71req/s] [内存消耗：239.54kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.003536s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.003658s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000085s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:06:25+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.341505s] [吞吐率：2.93req/s] [内存消耗：242.43kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000026s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.018060s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018084s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001787s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:18+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/index/login
+[运行时间：0.414410s] [吞吐率：2.41req/s] [内存消耗：298.96kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000021s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.016009s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.016031s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.001515s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000028s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'thinkphp_show_page_trace=0|0; fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001481s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000038s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ RUN ] app\admin\controller\Index->login[ /var/webstars/sustens/application/admin/controller/Index.php ]
+[ info ] [ VIEW ] /var/webstars/sustens/public/../application/admin/view/index/login.html [ array (
+  0 => 'breadcrumb',
+  1 => 'site',
+  2 => 'config',
+  3 => 'auth',
+  4 => 'admin',
+  5 => 'keeyloginhours',
+  6 => 'background',
+  7 => 'title',
+) ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.001010s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/backend.css.map
+[运行时间：0.089015s] [吞吐率：11.23req/s] [内存消耗：239.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000022s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.012833s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.012869s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000090s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000038s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'backend.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:20+08:00 ] 10.211.55.2 GET dev.sustens.com/index.php?s=/captcha
+[运行时间：0.200652s] [吞吐率：4.98req/s] [内存消耗：242.18kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000024s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.017963s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.018013s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000112s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000026s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\captcha\\CaptchaController',
+    1 => 'index',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => NULL,
+)
+[ info ] [ RUN ] think\captcha\CaptchaController->index[ /var/webstars/sustens/vendor/topthink/think-captcha/src/CaptchaController.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/bootstrap.css.map
+[运行时间：0.169495s] [吞吐率：5.90req/s] [内存消耗：239.59kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000028s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.019835s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.019864s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000408s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000177s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'bootstrap.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/skins/skin-black-blue.css.map
+[运行时间：0.183145s] [吞吐率：5.46req/s] [内存消耗：239.54kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.006965s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007044s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000113s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000028s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'skins',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:20+08:00 ] 10.211.55.2 GET dev.sustens.com/assets/css/fastadmin.css.map
+[运行时间：0.020873s] [吞吐率：47.91req/s] [内存消耗：239.59kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000025s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.005852s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005882s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000134s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000072s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'assets',
+    1 => 'css',
+    2 => 'fastadmin.css.map',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2024-10-25T19:09:22+08:00 ] 10.211.55.2 GET dev.sustens.com/MTyvDCHVOo.php/ajax/lang?callback=define&controllername=index&lang=zh-cn&v=1729854558
+[运行时间：0.035962s] [吞吐率：27.81req/s] [内存消耗：302.07kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000051s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.009744s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.009768s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.000108s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000015s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'ajax',
+    2 => 'lang',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'fastadmin_sid=6i4i85hcfiji; thinkphp_show_page_trace=0|0; PHPSESSID=ug8e40esvrg41dg9pckf71nml0; uid=2; token=50446b79-6f1c-4eb2-9abc-2c19eb7a9159; thinkphp_show_page_trace=0|0; backend_language=zh-cn; frontend_language=en',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => '*/*',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+  'callback' => 'define',
+  'controllername' => 'index',
+  'lang' => 'zh-cn',
+  'v' => '1729854558',
+)
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.000134s ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000148s ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/ajax.php
+[ info ] [ RUN ] app\admin\controller\Ajax->lang[ /var/webstars/sustens/application/admin/controller/Ajax.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/admin/lang/zh-cn/index.php
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\AdminLog @app_end [ RunTime:0.000046s ]
+[ info ] [ LOG ] INIT File

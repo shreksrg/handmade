@@ -1,0 +1,40 @@
+---------------------------------------------------------------
+[ 2025-02-20T21:05:16+08:00 ] 10.211.55.2 GET dev.sustens.com//addons/ldcms/api.v1/test
+[运行时间：3.949590s] [吞吐率：0.25req/s] [内存消耗：1,134.19kb] [文件加载：167]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005850s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.464864s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.464897s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.197223s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000600s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '16',
+  'connection' => 'keep-alive',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'dev.sustens.com',
+  'accept' => '*/*',
+  'content-type' => 'text/plain',
+  'user-agent' => 'Apifox/1.0.0 (https://apifox.com)',
+)
+[ info ] [ PARAM ] array (
+  'addon' => 'ldcms',
+  'controller' => 'api.v1',
+  'action' => 'test',
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.157489s ]
+[ info ] [ LOG ] INIT File

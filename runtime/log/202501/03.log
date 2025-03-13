@@ -1,0 +1,131 @@
+---------------------------------------------------------------
+[ 2025-01-03T09:38:03+08:00 ] 10.211.55.2 GET dev.sustens.com/
+[运行时间：1.134854s] [吞吐率：0.88req/s] [内存消耗：1,146.55kb] [文件加载：187]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001789s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.102129s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.102158s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.003399s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000125s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'frontend_language=zh-cn; backend_language=zh-cn; PHPSESSID=vugpckb7fh1cebvu2c3sbag100; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.005443s ]
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000038s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/zh-cn.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/ldcms2024/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'ld',
+  4 => 'topid',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]Undefined variable $item[/var/webstars/sustens/runtime/temp/8359a87d2c49931d01c8bc03aba12b50.php:52]
+[ error ] [2]Trying to access array offset on value of type null[/var/webstars/sustens/runtime/temp/8359a87d2c49931d01c8bc03aba12b50.php:52]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+---------------------------------------------------------------
+[ 2025-01-03T09:38:31+08:00 ] 10.211.55.2 GET dev.sustens.com/
+[运行时间：1.305358s] [吞吐率：0.77req/s] [内存消耗：865.45kb] [文件加载：187]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000065s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @app_init [ RunTime:0.029987s ]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.030024s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_init [ RunTime:0.002548s ]
+[ info ] [ LANG ] /var/webstars/sustens/thinkphp/lang/zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @app_dispatch [ RunTime:0.000037s ]
+[ info ] [ ROUTE ] array (
+  'type' => 'method',
+  'method' => 
+  array (
+    0 => '\\think\\addons\\Route',
+    1 => 'execute',
+  ),
+  'var' => 
+  array (
+    'addon' => 'ldcms',
+    'controller' => 'index',
+    'action' => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'upgrade-insecure-requests' => '1',
+  'sec-purpose' => 'prefetch;prerender',
+  'purpose' => 'prefetch',
+  'cookie' => 'frontend_language=zh-cn; backend_language=zh-cn; PHPSESSID=vugpckb7fh1cebvu2c3sbag100; thinkphp_show_page_trace=0|0',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
+  'host' => 'dev.sustens.com',
+  'content-length' => '',
+  'content-type' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] think\addons\Route->execute[ /var/webstars/sustens/vendor/karsonzhang/fastadmin-addons/src/addons/Route.php ]
+[ info ] [ LANG ] /var/webstars/sustens/public/../application/common/lang/zh-cn/addon.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @addon_begin [ RunTime:0.003030s ]
+[ info ] [ BEHAVIOR ] Run \addons\ldcms\Ldcms @config_init [ RunTime:0.000048s ]
+[ info ] [ LANG ] /var/webstars/sustens/addons/ldcms/lang/zh-cn.php
+[ info ] [ VIEW ] /var/webstars/sustens/addons/ldcms/view/ldcms2024/index.html [ array (
+  0 => 'user',
+  1 => 'site',
+  2 => 'config',
+  3 => 'ld',
+  4 => 'topid',
+) ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ error ] [2]Undefined variable $item[/var/webstars/sustens/runtime/temp/8359a87d2c49931d01c8bc03aba12b50.php:52]
+[ error ] [2]Trying to access array offset on value of type null[/var/webstars/sustens/runtime/temp/8359a87d2c49931d01c8bc03aba12b50.php:52]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
+[ error ] [2]foreach() argument must be of type array|object, null given[/var/webstars/sustens/thinkphp/library/think/db/Query.php:746]
